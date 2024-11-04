@@ -1,0 +1,117 @@
+body {
+    background-color: #EDEFEE;
+    font-family: 'Markazi Text', serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    min-height: 100vh;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+header > img {
+    display: block;
+    width: 30%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    background-color: rgba(0, 0, 0, 0.338);
+    border-radius: 6px;
+}
+
+nav li {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: 100;
+    color: whitesmoke;
+}
+
+.section-one {
+    position: relative;
+    background-image: url(./images/L1.png);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
+    width: 100%;
+    height: 600px;
+    color: whitesmoke;
+    margin-bottom: 40px;
+    border-radius: 6px;
+}
+
+.section-one h1 {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 4rem;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    background-color: peachpuff;
+    padding: 0 60px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+
+.container img {
+    width: 400px;
+    height: 400px;
+}
+
+.button {
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.338);
+}
+
+li {
+   list-style-type: none;
+}
+
+footer {
+    display: flex;
+    padding-top: 40px;
+}
+
+footer div {
+    flex: 1;
+}
+
+footer p {
+    text-align: end;
+}
+
+footer img {
+    height: auto;
+    width: 80px;
+}
+
